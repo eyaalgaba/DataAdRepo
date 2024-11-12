@@ -1,0 +1,163 @@
+body {
+    overflow-x: hidden;
+}
+
+ /* LANDING PAGE */
+/* Logo and Slogan */
+.logo {
+    max-height: 500px;
+
+}
+.slogan {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color: #FFA5F3;
+    text-align: center;
+    padding-top: 1px;
+    -webkit-text-stroke: 1px #4540A2; 
+}
+
+/* Log In */
+.log {
+    margin-top: 100px;
+    padding-top: 30px;
+    width: 386px;
+    height: 401px;
+    border-color: #FFA5F3;
+    border-style: solid;
+    border-width: 15px;
+}
+
+.register {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFA5F3; 
+    font-size: 5vw;
+    padding-top: 30px;
+    font-weight: 600;
+    
+}
+
+@media (max-width: 768px) {
+    .signButton {
+        text-align: center !important; 
+    }
+}
+
+@media (max-width: 768px) {
+    .username {
+        font-size: 5vw;
+        text-align: left;
+        padding-top: 25px;
+    }
+    .profile {
+        font-size: 9vw; 
+    }
+    
+}
+
+
+.buttonContainer {
+    text-align: center;
+}
+
+.button { 
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    border-width: 30%;
+}
+
+.profile {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFA5F3; 
+    font-size: 5vw;
+    padding-top: 30px;
+    font-weight: 600;
+    
+}
+
+.username {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #ffff; 
+    padding-top: 60px;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+    .username {
+        font-size: 5vw;
+        text-align: left;
+        padding-top: 25px;
+    }
+    .profile {
+        font-size: 9vw; 
+    }
+    
+}
+
+.firstName {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ffff; 
+    font-size: 2.6vw;
+    font-weight: 500;
+    
+}
+
+.lastName {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #ffff; 
+    font-weight: 500;
+    font-size: 2.6vw;
+    
+}
+
+.birthDay {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #ffff; 
+    font-weight: 500;
+    font-size: 2.6vw;
+    padding-top: 100px;
+    
+}
+
+.address {
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #ffff; 
+    font-weight: 500;
+    font-size: 2.6vw;
+    padding-top: 100px;
+    
+}
+
+@media (max-width: 768px) {
+    .firstName {
+        font-size: 6vw;
+        padding-top: 20px;
+
+    }
+    .lastName {
+        font-size: 6vw; 
+        padding-top: 20px;
+    }
+    .birthDay {
+        font-size: 6vw;
+        padding-top: 20px;
+    }
+    .address {
+        font-size: 6vw; 
+        padding-top: 20px;
+    }
+    
+}
