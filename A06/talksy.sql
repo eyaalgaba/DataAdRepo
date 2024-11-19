@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 12, 2024 at 02:14 PM
+-- Generation Time: Nov 19, 2024 at 10:36 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -226,19 +226,20 @@ CREATE TABLE `users` (
   `messageID` int(11) DEFAULT NULL,
   `userName` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
-  `userpfp` varchar(40) NOT NULL
+  `userpfp` varchar(40) NOT NULL,
+  `isDeleted` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`userID`, `messageID`, `userName`, `password`, `userpfp`) VALUES
-(1, 0, 'I_lIke_PeAnuts', 'Ilikepeanuts4ever', 'anyaprofile.png'),
-(2, 0, 'cssystin', 'cassy07', 'cassyprofile.png'),
-(3, 0, 'levs_ckrmn', 'titankiller_20', 'leviprofile.png'),
-(4, NULL, 'eyaalgaba', '20031116', 'nopfp.png'),
-(5, NULL, 'mks_ckrmn19', 'mikasalamanca', 'nopfp.png');
+INSERT INTO `users` (`userID`, `messageID`, `userName`, `password`, `userpfp`, `isDeleted`) VALUES
+(1, 0, 'I_lIke_PeAnuts', 'Ilikepeanuts4ever', 'anyaprofile.png', 'no'),
+(2, 0, 'cssystin', 'cassy07', 'cassyprofile.png', 'no'),
+(3, 0, 'levs_ckrmn', 'titankiller_20', 'leviprofile.png', 'no'),
+(4, NULL, 'eyaalgaba', '20031116', 'nopfp.png', 'yes'),
+(5, NULL, 'mks_ckrmn19', 'mikasalamanca', 'nopfp.png', 'no');
 
 --
 -- Indexes for dumped tables
